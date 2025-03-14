@@ -108,6 +108,7 @@ public class ManipulationMongo {
     public void showCollection(String dbName , String collection) {
         MongoDatabase db=mongoClient.getDatabase(dbName);
         if(!isDbExist(dbName)){
+
             System.out.println(dbName + " does not exist");
             return;
         }
