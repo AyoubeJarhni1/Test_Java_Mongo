@@ -9,6 +9,7 @@ public class Main {
       // manipulationMongo.createDb("Cars");
         // manipulationMongo.deleteDB("Cars");
         manipulationMongo.findAllCollections("Cars");
+        manipulationMongo.showCollection("Cars","collection1");
        // manipulationMongo.createCollection("Cars","car");
        // manipulationMongo.deleteCollection("Cars","car");
 
