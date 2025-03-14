@@ -11,7 +11,7 @@ public class Main {
         manipulationMongo.findAllCollections("Cars");
        // manipulationMongo.createCollection("Cars","car");
        // manipulationMongo.deleteCollection("Cars","car");
-        manipulationMongo.showCollection("Cars","car");
+
     }
 
 }
