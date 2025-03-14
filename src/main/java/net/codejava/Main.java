@@ -7,7 +7,7 @@ public class Main {
     public static void main(String[] args) {
       ManipulationMongo manipulationMongo = new ManipulationMongo();
 
-        // Créer une base de données de test
+       /* // Créer une base de données de test
         String dbName = "test_db";
         System.out.println("\n--- Création de la base de données " + dbName + " ---");
         manipulationMongo.createDb(dbName);
@@ -58,7 +58,10 @@ public class Main {
 
         // Tester la suppression d'un document qui n'existe pas
         System.out.println("\n--- Test de la suppression d'un document inexistant ---");
-        manipulationMongo.deleteDocument(dbName, collectionName, "name", "Ahmed");
+        manipulationMongo.deleteDocument(dbName, collectionName, "name", "Ahmed");*/
+        manipulationMongo.createDatabase("testDb");
+        manipulationMongo.createCollection("testDb","coll1");
+
 
 
     }
