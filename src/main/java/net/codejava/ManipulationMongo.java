@@ -37,12 +37,8 @@ public class ManipulationMongo {
                 System.out.println( " Faild To Create"+" "+ dbName);
             }
         }
-        public void deleteDb(String dbName){
-
-        }
-        public void findAllCollections(String dbName ){
-
-        }
+       
+       
         public void createCollection(String dbName,String collection){
             MongoDatabase database = mongoClient.getDatabase(dbName);
             database.createCollection(collection);
@@ -56,10 +52,7 @@ public class ManipulationMongo {
 
 
         }
-        public void deleteCollection(String dbName,String collection){
-
-        }
-
+      
         //    ******    //
         public boolean isDbExist(String dbName){
             boolean isExist = false;
